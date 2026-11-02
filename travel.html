@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Travel Agency</title>
+    <style>
+        body {
+            font-family: Arial;
+            margin: 0;
+            background-color: #f0f8ff;
+        }
+        header {
+            background-color: #0077b6;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+        nav {
+            background-color: #023e8a;
+            text-align: center;
+            padding: 12px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 20px;
+        }
+        h2 {
+            text-align: center;
+            color: #0077b6;
+        }
+        .places {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 20px;
+        }
+        .card {
+            background: white;
+            width: 230px;
+            text-align: center;
+            padding: 15px;
+            border-radius: 12px;
+            box-shadow: 0 0 8px gray;
+        }
+        .card img {
+            width: 200px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        .price {
+            color: green;
+            font-weight: bold;
+        }
+        button {
+            background-color: #0077b6;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+        .inquiry {
+            background: white;
+            margin: 20px auto;
+            padding: 20px;
+            width: 300px;
+            text-align: center;
+            border-radius: 10px;
+        }
+        input {
+            width: 90%;
+            padding: 10px;
+            margin: 8px;
+        }
+        footer {
+            background-color: #023e8a;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Dream Travel Agency</h1>
+    <p>Explore the World With Us</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Destinations</a>
+    <a href="#">Packages</a>
+    <a href="#">Contact</a>
+</nav>
+
+<h2>Popular Destinations</h2>
+
+<div class="places">
+
+    <div class="card">
+        <img src="https://blog.lohono.com/wp-content/uploads/2026/06/bioluminescent-beach-in-goa-scaled.webp" alt="Goa">
+        <h3>Goa</h3>
+        <p>Duration: 3 Days</p>
+        <p class="price">₹5,000</p>
+        <p>Enjoy beautiful beaches.</p>
+        <button>Book Now</button>
+    </div>
+
+    <div class="card">
+        <img src="https://static.india.com/wp-content/uploads/2024/12/Jogini-Waterfalls.jpg?impolicy=Medium_Widthonly&w=400&h=800" alt="Manali">
+        <h3>Manali</h3>
+        <p>Duration: 5 Days</p>
+        <p class="price">₹8,000</p>
+        <p>Enjoy beautiful mountains.</p>
+        <button>Book Now</button>
+    </div>
+
+    <div class="card">
+        <img src="https://flydesert.ae/wp-content/uploads/2026/03/kerala-package-img1.jpg" alt="Kerala">
+        <h3>Kerala</h3>
+        <p>Duration: 4 Days</p>
+        <p class="price">₹7,000</p>
+        <p>Enjoy beautiful backwaters.</p>
+        <button>Book Now</button>
+    </div>
+
+</div>
+
+<h2>Travel Inquiry Form</h2>
+
+<div class="inquiry">
+    <form>
+        <input type="text" placeholder="Enter Your Name" required>
+        <input type="email" placeholder="Enter Your Email" required>
+        <input type="text" placeholder="Destination">
+        <input type="date" required>
+        <button type="submit">Submit</button>
+    </form>
+</div>
+
+<footer>
+    <p>Contact: 9876543210</p>
+    <p>Email: dreamtravel@gmail.com</p>
+    <p>© 2026 Dream Travel Agency</p>
+</footer>
+
+</body>
+</html>
